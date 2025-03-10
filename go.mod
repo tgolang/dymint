@@ -285,7 +285,7 @@ require (
 	github.com/cockroachdb/redact v1.1.5 // indirect
 	github.com/cockroachdb/tokenbucket v0.0.0-20230807174530-cc333fc44b06 // indirect
 	github.com/danwt/gerr v1.0.0 // indirect
-	github.com/evmos/evmos/v12 v12.1.6 // indirect
+	github.com/evmos/evmos/v12 v12.1.6
 	github.com/getsentry/sentry-go v0.23.0 // indirect
 	github.com/gopherjs/gopherjs v0.0.0-20190812055157-5d271430af9f // indirect
 	github.com/holiman/uint256 v1.2.2 // indirect

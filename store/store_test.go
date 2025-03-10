@@ -37,7 +37,7 @@ func TestStoreLoad(t *testing.T) {
 		//}},
 	}
 
-	tmpdir := t.TempDir()
+	tmpDir := t.TempDir()
 
 	for _, kv := range []store.KV{store.NewDefaultInMemoryKVStore(), store.NewDefaultKVStore(tmpDir, "db", "test")} {
 		for _, c := range cases {
