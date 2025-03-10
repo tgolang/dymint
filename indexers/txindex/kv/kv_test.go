@@ -444,9 +444,9 @@ func benchmarkTxIndex(txsCount int64, b *testing.B) {
 	}
 
 	b.ResetTimer()
-
+	var err error
 	for n := 0; n < b.N; n++ {
-		err := indexer.AddBatch(batch)
+		err = indexer.AddBatch(batch)
 	}
 	if err != nil {
 		b.Fatal(err)
